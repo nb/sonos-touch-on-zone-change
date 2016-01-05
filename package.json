@@ -1,0 +1,22 @@
+{
+  "name": "sonos-touch-on-zone-change",
+  "version": "0.0.1",
+  "description": "Touch a file when the Sonos zones (groups, topology) change",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": "./index.js",
+  "keywords": [
+    "sonos"
+  ],
+  "author": "Nikolay Bachiyski <nb@nikolay.bg>",
+  "dependencies": {
+    "sonos-discovery": "https://github.com/jishi/node-sonos-discovery/archive/0.16.1.tar.gz"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nb/sonos-touch-on-zone-change.git"
+  },
+  "license": "ISC"
+}
